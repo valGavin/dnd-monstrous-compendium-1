@@ -1,0 +1,85 @@
+{
+  "id": "dnd-monstrous-compendium-1",
+  "title": "Monstrous Compendium Vol. 1: Spelljammer Creatures",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>This bestiary provides game statistics and lore for ten monsters that are suitable for any Dungeons &amp; Dragons campaign. These monsters include old favorites from past editions of the game as well as monsters created for the current edition. The creatures in this bestiary are organized alphabetically.</p>",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-monstrous-compendium-1/assets/art/monstrous-compendium-vol-1-spelljammer-creatures-cover.webp",
+      "thumbnail": "modules/dnd-monstrous-compendium-1/assets/art/monstrous-compendium-vol-1-spelljammer-creatures-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "mcv1-articles",
+      "label": "Monstrous Compendium Vol. 1: Spelljammer Creatures",
+      "path": "packs/mcv1-articles",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "mcv1-creatures",
+      "label": "Creatures",
+      "path": "packs/mcv1-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "mcv1-tables",
+      "label": "Rollable Table",
+      "path": "packs/mcv1-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Monstrous Compendium Vol. 1: Spelljammer Creatures",
+      "color": "#a39d9efb",
+      "sorting": "m",
+      "packs": [
+        "mcv1-articles",
+        "mcv1-creatures",
+        "mcv1-tables"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "MCV1": "Monstrous Compendium Vol. 1: Spelljammer Creatures"
+      }
+    }
+  }
+}

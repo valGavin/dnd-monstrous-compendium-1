@@ -1,0 +1,25 @@
+2024/12/19-03:53:50.080376 ffffacf9f040 Recovering log #4
+2024/12/19-03:53:50.085699 ffffacf9f040 Delete type=3 #2
+2024/12/19-03:53:50.085767 ffffacf9f040 Delete type=0 #4
+2024/12/19-09:19:11.330539 fffd8f8d4040 Level-0 table #9: started
+2024/12/19-09:19:11.354686 fffd8f8d4040 Level-0 table #9: 1909731 bytes OK
+2024/12/19-09:19:11.356961 fffd8f8d4040 Delete type=0 #7
+2024/12/19-09:57:29.834266 fffd8f8d4040 Level-0 table #11: started
+2024/12/19-09:57:29.840757 fffd8f8d4040 Level-0 table #11: 346193 bytes OK
+2024/12/19-09:57:29.842714 fffd8f8d4040 Delete type=0 #8
+2024/12/19-09:57:29.848083 fffd8f8d4040 Manual compaction at level-0 from '!actors!2mBAKaRks6KU0K2n' @ 72057594037927935 : 1 .. '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 0 : 0; will stop at '!actors.items.effects!2mBAKaRks6KU0K2n.N7RCeXvsqPWevrUV.qpttrLuUAnapyJat' @ 996 : 1
+2024/12/19-09:57:29.848092 fffd8f8d4040 Compacting 1@0 + 1@1 files
+2024/12/19-09:57:29.855255 fffd8f8d4040 Generated table #12@0: 55 keys, 68649 bytes
+2024/12/19-09:57:29.855273 fffd8f8d4040 Compacted 1@0 + 1@1 files => 68649 bytes
+2024/12/19-09:57:29.857136 fffd8f8d4040 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/19-09:57:29.857392 fffd8f8d4040 Delete type=2 #9
+2024/12/19-09:57:29.857598 fffd8f8d4040 Delete type=2 #11
+2024/12/19-09:57:29.865034 fffd8f8d4040 Manual compaction at level-0 from '!actors.items.effects!2mBAKaRks6KU0K2n.N7RCeXvsqPWevrUV.qpttrLuUAnapyJat' @ 996 : 1 .. '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 0 : 0; will stop at (end)
+2024/12/19-09:57:29.868426 fffd8f8d4040 Manual compaction at level-1 from '!actors!2mBAKaRks6KU0K2n' @ 72057594037927935 : 1 .. '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 0 : 0; will stop at '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 165 : 1
+2024/12/19-09:57:29.868435 fffd8f8d4040 Compacting 1@1 + 1@2 files
+2024/12/19-09:57:29.872113 fffd8f8d4040 Generated table #13@1: 55 keys, 68649 bytes
+2024/12/19-09:57:29.872140 fffd8f8d4040 Compacted 1@1 + 1@2 files => 68649 bytes
+2024/12/19-09:57:29.874109 fffd8f8d4040 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/12/19-09:57:29.874191 fffd8f8d4040 Delete type=2 #5
+2024/12/19-09:57:29.874269 fffd8f8d4040 Delete type=2 #12
+2024/12/19-09:57:29.874493 fffd8f8d4040 Manual compaction at level-1 from '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 165 : 1 .. '!actors.items.effects!N0bUODl2onYLzRh2.wkD2covzLSMr994W.BwmRlhStW6hzpRML' @ 0 : 0; will stop at (end)
